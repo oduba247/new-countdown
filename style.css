@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    line-height: 60px;
+}
+.countdown{
+    display: flex;
+    gap: 20px;
+}
+h1{
+    font-size: 3rem;
+}
